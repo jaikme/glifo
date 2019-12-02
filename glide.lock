@@ -1,0 +1,18 @@
+hash: be9fc1f56b2f46af203c61e9443af58b38d402dd0909541aa7ec61cb3ac09492
+updated: 2019-12-02T14:29:19.940265-03:00
+imports:
+- name: github.com/codegangsta/gin
+  version: cafe2ce98974a3dcca6b92ce393a91a0b58b8133
+- name: github.com/go-chi/chi
+  version: df7d757c4ad7ad155b3cd518be2eb6f131952a79
+  subpackages:
+  - middleware
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+- name: github.com/mattn/go-sqlite3
+  version: 590d44c02bca83987d23f6eab75e6d0ddf95f644
+- name: github.com/thedevsaddam/renderer
+  version: 50d2f6151f9d45c16f127596b4cc9be4e5a66b3e
+  subpackages:
+  - '...'
+testImports: []
