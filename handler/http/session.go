@@ -1,11 +1,16 @@
 package handler
 
+// import (
+// 	"glifo/driver"
+// 	"glifo/models"
+// )
+
 // type Session struct {
 // 	repo repository.SessionRepo
 // }
 
 // NewPostHandler ...
-// func NewPostHandler(db *driver.DB) *Post {
+// func NewSessionHandlerWith(db *driver.DB) *Session {
 // 	// return &Post{
 // 	// 	repo: post.NewSQLPostRepo(db.SQL),
 // 	// }
