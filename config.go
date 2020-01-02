@@ -4,13 +4,14 @@ import (
 	"os"
 )
 
+// Config ...
 type Config struct {
 	Port string
 }
 
 // New returns a new Config struct
 func New() *Config {
-	return &Config {
+	return &Config{
 		Port: getEnv("PORT", ""),
 	}
 }

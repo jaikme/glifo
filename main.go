@@ -1,4 +1,4 @@
-package main
+package glifo
 
 import (
 	"fmt"
@@ -11,7 +11,6 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-
 )
 
 // Glifo CRUD operations
@@ -33,7 +32,7 @@ func main() {
 	// }
 
 	r := chi.NewRouter()
-	
+
 	r.Use(middleware.Recoverer)
 	r.Use(middleware.Logger)
 
@@ -50,7 +49,7 @@ func main() {
 	// Get port config
 	// port, exists := os.LookupEnv("PORT")
 
-	conf := config.New()
+	conf := glifo.New()
 	print(conf.Port)
 
 	fmt.Println("Server listen at :3000")
