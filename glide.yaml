@@ -1,10 +1,4 @@
-package: glifo
+package: github.com/jaikme/glifo
 import:
-- package: github.com/go-chi/chi
-- package: github.com/codegangsta/gin
-- package: github.com/thedevsaddam/renderer
-  subpackages:
-  - '...'
-- package: github.com/mattn/go-sqlite3
-  version: ^1.13.0
-- package: github.com/jinzhu/gorm
+- package: github.com/labstack/echo
+  version: v4.1.14

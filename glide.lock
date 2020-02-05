@@ -1,20 +1,6 @@
-hash: be9fc1f56b2f46af203c61e9443af58b38d402dd0909541aa7ec61cb3ac09492
-updated: 2019-12-23T16:27:13.288091-03:00
+hash: f6c5311799f05f46f407d9819bacaf1666f6c983935954238ed59c5f80a8cbe1
+updated: 2020-02-05T18:45:30.876274-03:00
 imports:
-- name: github.com/codegangsta/gin
-  version: cafe2ce98974a3dcca6b92ce393a91a0b58b8133
-- name: github.com/go-chi/chi
-  version: df7d757c4ad7ad155b3cd518be2eb6f131952a79
-  subpackages:
-  - middleware
-- name: github.com/jinzhu/gorm
-  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
-- name: github.com/jinzhu/inflection
-  version: 1c35d901db3da928c72a72d8458480cc9ade058f
-- name: github.com/mattn/go-sqlite3
-  version: 590d44c02bca83987d23f6eab75e6d0ddf95f644
-- name: github.com/thedevsaddam/renderer
-  version: 50d2f6151f9d45c16f127596b4cc9be4e5a66b3e
-  subpackages:
-  - '...'
+- name: github.com/labstack/echo
+  version: 8d7f05e5336fa9a05c6ca5a610a0c5140c01bfc3
 testImports: []
